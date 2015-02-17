@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>zoom demo</title>
+	<link rel="stylesheet" href="css/jqzoom.css">
+</head>
+<body>
+	<div class="jqzoom">
+		<img src="images/small.jpg" jqimg="images/big.jpg" alt="pic info">
+	</div>
+<!-- js -->
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js"></script>
+<script src="js/jqzoom.js"></script>
+<script>
+	$(function(){
+		$(".jqzoom").jqueryzoom({
+	        xzoom: 320, 
+	        yzoom:320
+        });
+	});
+</script>
+<!-- /js -->
+</body>
+</html>
